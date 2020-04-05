@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Redução CoronaVirus</string>
+    <string name="reducao_coronavirus">Redução CoronaVirus</string>
+    <string name="salario">Salario do funcionário (sem redução)</string>
+    <string name="reducao">Reducao</string>
+    <string name="button_calcular">Calcular</string>
+    <string name="reducao_de_25">Redução de 25%</string>
+    <string name="salario_em_reducao_25">Salario total em redução 25%</string>
+    <string name="beneficio_em_reducao_25">Beneficio em redução 25%</string>
+    <string name="reducao_de_50">Redução de 50%</string>
+    <string name="salario_em_reducao_50">Salario total em redução 50%</string>
+    <string name="beneficio_em_reducao_50">Beneficio em redução 50%</string>
+    <string name="reducao_de_70">Redução de 70%</string>
+    <string name="salario_em_reducao_70">Salario total em redução 70%</string>
+    <string name="beneficio_em_reducao_70">Beneficio em redução 70%</string>
+    <string name="salario_empresa_70">Salário pago pela empresa reduzido 70%</string>
+    <string name="salario_empresa_50">Salário pago pela empresa reduzido 50%</string>
+    <string name="salario_empresa_25">Salário pago pela empresa reduzido 25%</string>
+    <string name="beneficio_RS">Benefício R$  </string>
+    <string name="salario_empresa_RS">Salário da empresa R$  </string>
+    <string name="salario_total_RS">Salario total R$  </string>
+</resources>
