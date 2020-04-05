@@ -51,27 +51,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             calculoTotalComBeneficio(salario, previaBeneficio);
 
-            this.mViewHolder.textAvisoSindical.setText("");
         } else if (salario <= 2666.29) {
             //Calculo do beneficio para esta faixa salarial
             double previaBeneficio = ((salario - 1599.61) * 0.5) + 1279.69;
 
             calculoTotalComBeneficio(salario, previaBeneficio);
 
-            this.mViewHolder.textAvisoSindical.setText("");
         } else {
             //Calculo do beneficio para esta faixa salarial
 
             double previaBeneficio = 1813.03;
 
             calculoTotalComBeneficio(salario, previaBeneficio);
-
-            if (salario > 3135) {
-                this.mViewHolder.textAvisoSindical.setText("***Mediante autorização sindical***");
-            } else {
-                this.mViewHolder.textAvisoSindical.setText("");
-            }
-
         }
     }
 
@@ -110,6 +101,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         double salario70 = previsaoSalario70 + previaBeneficio70;
         aux = getString(R.string.salario_total_RS) + " " + String.format("%.2f", salario70);
         this.mViewHolder.textSalario70.setText(aux);
+
+        if (salario > 3135) {
+            this.mViewHolder.textAvisoSindical.setText("***Mediante autorização sindical***");
+        } else {
+            this.mViewHolder.textAvisoSindical.setText("");
+        }
     }
 
 
